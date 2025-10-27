@@ -12,17 +12,13 @@
         color: #333;
         padding: 2rem;
       }
-      h1 {
-        margin-bottom: 1rem;
-      }
+      h1 { margin-bottom: 1rem; }
       img {
         max-width: 300px;
         border-radius: 8px;
         box-shadow: 0 4px 12px rgba(0,0,0,0.1);
       }
-      .links {
-        margin-top: 2rem;
-      }
+      .links { margin-top: 2rem; }
       a {
         display: inline-block;
         margin: 0.5rem;
@@ -33,9 +29,7 @@
         border-radius: 5px;
         transition: background 0.3s;
       }
-      a:hover {
-        background: #003e80;
-      }
+      a:hover { background: #003e80; }
     </style>
   </head>
   <body>
@@ -43,18 +37,17 @@
     <img src="badge.png" alt="Dante Level 2 Badge" />
     <div class="links">
       <a href="badge.png" download>Download Badge</a>
-      <a href="assertion.json">View Assertion</a>
-      <a href="badgeclass.json">View BadgeClass</a>
-      <a
-  href="https://verifier.imsglobal.org/?url=https%3A%2F%2Fultanmolloy-lgtm.github.io%2Fdante-level2-badge%2Fassertion.json"
-  target="_blank"
->
-  ✅ Verify Badge
-</a>
-
-        ✅ Verify Badge
-      </a>
+      <a href="assertion.json" target="_blank">View Assertion</a>
+      <a href="badgeclass.json" target="_blank">View BadgeClass</a>
+      <a id="verify-btn" href="#" target="_blank">✅ Verify Badge</a>
     </div>
     <p>Hosted via GitHub Pages<br />© Ultan Molloy</p>
+
+    <script>
+      const assertionUrl = "https://ultanmolloy-lgtm.github.io/dante-level2-badge/assertion.json";
+      const verifierBase = "https://verifier.imsglobal.org/?url=";
+      const encoded = verifierBase + encodeURIComponent(assertionUrl);
+      document.getElementById("verify-btn").href = encoded;
+    </script>
   </body>
 </html>
