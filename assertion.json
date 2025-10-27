@@ -1,11 +1,11 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Assertion",
-  "id": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/assertion.json",
+  "id": "https://github.com/ultanmolloy-lgtm/dante-level2-badge/assertion.json",
   "recipient": {
     "type": "email",
     "hashed": false,
-    "identity": "mailto:ultanmolloy@me.com"
+    "identity": "ultanmolloy@me.com"
   },
   "issuedOn": "2025-10-27T13:38:47Z",
   "badge": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badgeclass.json",
