@@ -1,7 +1,7 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Assertion",
-  "id": "https://github.com/ultanmolloy-lgtm/dante-level2-badge/badge/assertion.json",
+  "id": "https://ultanmolloy-lgtm/dante-level2-badge/badge/assertion.json",
   "recipient": {
     "type": "email",
     "hashed": false,
