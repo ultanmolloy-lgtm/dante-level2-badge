@@ -3,11 +3,9 @@
   "type": "Assertion",
   "id": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/assertion.json",
   "recipient": {
-  "type": "email",
-  "hashed": false,
-  "identity": "ultanmolloy@me.com"
-}
-
+    "type": "email",
+    "hashed": false,
+    "identity": "ultanmolloy@me.com"
   },
   "issuedOn": "2025-10-27T00:00:00Z",
   "badge": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/badgeclass.json",
