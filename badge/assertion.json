@@ -1,16 +1,16 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "Assertion",
-  "id": "https://ultanmolloy-lgtm/dante-level2-badge/badge/assertion.json",
+  "id": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/assertion.json",
   "recipient": {
     "type": "email",
     "hashed": false,
     "identity": "mailto:ultanmolloy@me.com"
   },
   "issuedOn": "2025-10-27T00:00:00Z",
-  "badge": "https://ultanmolloy-lgtm/dante-level2-badge/badge/badgeclass.json",
+  "badge": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/badgeclass.json",
   "verification": {
     "type": "HostedBadge",
-    "url": "https://ultanmolloy-lgtm/dante-level2-badge/badge/assertion.json"
+    "url": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/assertion.json"
   }
 }
