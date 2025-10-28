@@ -1,6 +1,5 @@
-<a id="verify-btn" href="#" target="_blank">✅ Verify Badge</a>
 <script>
   const assertionUrl = "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/assertion.json";
-  document.getElementById("verify-btn").href =
-    "https://verifier.imsglobal.org/?url=" + encodeURIComponent(assertionUrl);
+  const verifierBase = "https://verifier.imsglobal.org/?url=";
+  document.getElementById("verify-btn").href = verifierBase + encodeURIComponent(assertionUrl);
 </script>
