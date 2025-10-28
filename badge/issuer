@@ -1,8 +1,0 @@
-{
-  "@context": "https://w3id.org/openbadges/v2",
-  "type": "Issuer",
-  "id": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/issuer.json",
-  "name": "Audinate",
-  "url": "https://www.audinate.com",
-  "email": "info@audinate.com"
-}
