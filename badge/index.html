@@ -5,13 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Dante Level 2 Badge – Ultan Molloy</title>
     <style>
-      body { font-family: system-ui, sans-serif; text-align: center; background:#f9f9f9; color:#333; padding:2rem; }
-      h1 { margin-bottom: 1rem; }
-      img { max-width: 300px; border-radius: 8px; box-shadow: 0 4px 12px rgba(0,0,0,.1); }
-      .links { margin-top: 2rem; }
-      a { display:inline-block; margin:.5rem; padding:.6rem 1rem; text-decoration:none; background:#0055aa; color:#fff; border-radius:5px; }
-      a:hover { background:#003e80; }
-      footer { margin-top:3rem; font-size:.9rem; color:#666; }
+      body {
+        font-family: system-ui, sans-serif;
+        background: #f9f9f9;
+        color: #333;
+        text-align: center;
+        padding: 2rem;
+      }
+      h1 {
+        margin-bottom: 1rem;
+      }
+      img {
+        max-width: 280px;
+        margin-top: 1rem;
+        border-radius: 8px;
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      }
+      .links {
+        margin-top: 2rem;
+      }
+      a {
+        display: inline-block;
+        margin: 0.5rem;
+        padding: 0.6rem 1rem;
+        text-decoration: none;
+        background: #0055aa;
+        color: #fff;
+        border-radius: 5px;
+        font-weight: 500;
+      }
+      a:hover {
+        background: #003e80;
+      }
+      footer {
+        margin-top: 3rem;
+        font-size: 0.9rem;
+        color: #666;
+      }
     </style>
   </head>
   <body>
@@ -32,9 +62,11 @@
     </footer>
 
     <script>
-      const assertionUrl = "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/assertion.json";
-  const verifierBase = "https://verifier.imsglobal.org/?url=";
-  document.getElementById("verify-btn").href = verifierBase + encodeURIComponent(assertionUrl);
+      const assertionUrl =
+        "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/assertion.json";
+      const verifierBase = "https://verifier.imsglobal.org/?url=";
+      document.getElementById("verify-btn").href =
+        verifierBase + encodeURIComponent(assertionUrl);
     </script>
   </body>
 </html>
