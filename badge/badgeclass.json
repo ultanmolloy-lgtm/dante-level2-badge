@@ -1,10 +1,10 @@
 {
   "@context": "https://w3id.org/openbadges/v2",
   "type": "BadgeClass",
-  "id": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badgeclass.json",
+  "id": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/badgeclass.json",
   "name": "Dante Certified – Level 2 (2nd Edition)",
   "description": "This badge is awarded to Ultan Molloy for successfully completing the Dante Level 2 (2nd Edition) certification, demonstrating intermediate-level knowledge of Dante networked audio systems.",
-  "image": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge.png",
+  "image": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/badge.png",
   "criteria": {
     "id": "https://docs.google.com/document/d/1Zkc95ENXWLf7xVPdtbX46PeCFIjoYZJHy0eYKkCbit8/edit?tab=t.0",
     "narrative": "Complete the Dante Level 2 (2nd Edition) training and assessment."
