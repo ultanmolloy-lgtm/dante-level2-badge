@@ -9,5 +9,11 @@
     "id": "https://docs.google.com/document/d/1Zkc95ENXWLf7xVPdtbX46PeCFIjoYZJHy0eYKkCbit8/view?usp=sharing",
     "narrative": "Complete the Dante Level 2 (2nd Edition) training and assessment."
   },
-  "issuer": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/issuer.json"
+  "issuer": {
+    "type": "Issuer",
+    "id": "https://ultanmolloy-lgtm.github.io/dante-level2-badge/badge/issuer.json",
+    "name": "Audinate",
+    "url": "https://www.audinate.com",
+    "email": "info@audinate.com"
+  }
 }
